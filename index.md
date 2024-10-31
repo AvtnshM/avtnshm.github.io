@@ -1,5 +1,7 @@
+
+```markdown
 ---
-layout: default
+layout: home
 title: "Avatansh's Blog"
 ---
 
@@ -7,5 +9,12 @@ title: "Avatansh's Blog"
 
 Here you'll find various posts and guides.
 
-## Posts
-<!-- This will automatically list posts in `_posts` if the site is configured to display posts -->
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.date | date: "%B %d, %Y" }}</p>
+    </li>
+  {% endfor %}
+</ul>
+```

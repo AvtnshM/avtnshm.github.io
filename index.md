@@ -1,5 +1,4 @@
 
-```markdown
 ---
 layout: home
 title: "Avatansh's Blog"
@@ -17,4 +16,3 @@ Here you'll find various posts and guides.
     </li>
   {% endfor %}
 </ul>
-```

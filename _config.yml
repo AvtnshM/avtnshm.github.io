@@ -1,20 +1,6 @@
 title: "Avatansh's Blog"
 description: "A blog on data science and AI insights"
 theme: minima
-
-# Optional settings
-baseurl: "" # Leave this empty for root domain
-url: "https://avtnshm.github.io" # Your GitHub Pages URL
-
-# Display options
-paginate: 5 # Number of posts per page
-
-# Social media links (optional)
-social_links:
-  - title: "GitHub"
-    url: "https://github.com/AvtnshM"
-
-# Enabling markdown and layout for posts
+baseurl: ""
+url: "https://avtnshm.github.io"
 markdown: kramdown
-kramdown:
-  input: GFM
